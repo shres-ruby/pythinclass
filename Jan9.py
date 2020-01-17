@@ -49,6 +49,8 @@
 #     total = year* interest
 #     print (total)
 
+
+
 Nepali = int(input('Enter marks for Nepali : '))
 English = int(input('Enter marks for English : '))
 Maths = int(input('Enter marks for Maths : '))
@@ -66,16 +68,16 @@ print ('The percentage is %0.2f' %percentage)
 #     if i<passmark:
 #         print(f'The student failed in {i}')
 
-if Nepali<passmark:
-   print ('The student failed in Nepali.')
-if English<passmark:
-    print ('The student failed in English')
-if Maths<passmark:
-    print ('The student failed in Maths')
-if Science<passmark:
-    print ('The student failed in Science.')
-if Population<passmark:
-    print ('The student failed in Population')
+# if Nepali<passmark:
+#    print ('The student failed in Nepali.')
+# if English<passmark:
+#     print ('The student failed in English')
+# if Maths<passmark:
+#     print ('The student failed in Maths')
+# if Science<passmark:
+#     print ('The student failed in Science.')
+# if Population<passmark:
+#     print ('The student failed in Population')
 
 if Nepali>=passmark and English>=passmark and Maths>=passmark and Science>=passmark and Population>=passmark:
     if percentage>= 35 and percentage<45:
