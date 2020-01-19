@@ -15,7 +15,41 @@
 #     else:
 #         print ('z is largest')
 
-import math
-x = 30
-result = math.percent (x)
-print (result)
+#________________________________________________________________
+
+# subjects = {
+#     'Nepali' : int(input('Enter marks for Nepali : ')),
+#     'English' : int(input('Enter marks for English : '))
+# }
+
+# total = subjects['Nepali'] + subjects ['English']
+# print (f'The total marks is {total}')
+
+# for i in subjects:
+#     if subjects[i] < 35:
+#         print (f'The student failed in {i}')
+
+#____________________________________________________
+
+# num = int(input('Enter number of students : '))
+# count = 0
+# subjects = []
+
+# while count < num:
+#     Nepali = int(input('Enter marks for Nepali : '))
+#     English = int(input('Enter marks for English : '))
+#     for i in (Nepali, English):
+#         subjects.append(i)
+#     count+=1
+
+# print (subjects)
+# _________________________________________
+
+# Homework 2 (Jan 19, 2020)
+
+def my_rep(data,times):
+    for i in range (1, times+1):
+        result = print (data)
+    return result
+
+my_rep('Ram',10)
