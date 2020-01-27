@@ -14,3 +14,6 @@
 #membership operators  in, not in
 #identity operators  is, is not
 
+from test import *
+
+print(test.add(3,4))
