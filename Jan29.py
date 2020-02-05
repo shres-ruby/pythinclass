@@ -1,28 +1,13 @@
-import mysql.connector
+# import mysql.connector
 
-my_db = mysql.connector.connect(
-    host = '127.0.0.1',
-    user = 'root',
-    password = '',
-    database = 'python7am'
-)
+# my_db = mysql.connector.connect(
+#     host = '127.0.0.1',
+#     user = 'root',
+#     password = '',
+#     database = 'python7am'
+# )
 
-my_cursor = my_db.cursor()
-
-def select(table):
-    global my_cursor
-    # query = "SELECT * FROM table;"
-    return my_cursor.execute("SELECT * FROM table;")
-
-select('users')
-# ____________________________
-# def insert(*tablename, **data):
-#     query = "INSERT INTO tablename VALUES data"
-#     my_cursor.execute(query)
-
-# # data = ['ram','sita','gita']
-
-# insert('users', name='ram')
+# my_cursor = my_db.cursor()
 # ________________________________________
 
 # query = "CREATE DATABASE IF NOT EXISTS python7am"

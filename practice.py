@@ -107,13 +107,52 @@
 
 # def sub(x,y):
 #     return x-y
-# ________________________________
-import tkinter as tk
+# # ________________________________
+# import tkinter as tk
 
-open_tk = tk.Tk()
-open_tk.title('My GUI Application')
+# open_tk = tk.Tk()
+# open_tk.title('My GUI Application')
 
-my_can = tk.Canvas(width=600,height=400,bg='red')
-my_can.pack()
+# my_can = tk.Canvas(width=600,height=400,bg='red')
+# my_can.pack()
 
-open_tk.mainloop()
+# open_tk.mainloop()
+# ______________________________
+
+# import mysql.connector
+
+
+# def db_connection():
+#     global my_db
+#     my_db = mysql.connector.connect(
+#     host = '127.0.0.1',
+#     user = 'root',
+#     password = '',
+#     database = 'python7am'
+#     )
+#     return my_db
+
+# def db_cursor():
+#     global my_cursor
+#     db_connection()
+#     my_cursor = my_db.cursor()
+#     return my_cursor
+
+# def select(table):
+#     query = "SELECT * from  "+table
+#     db_connection()
+#     db_cursor()
+#     my_cursor.execute(query)
+#     result = my_cursor.fetchall()
+#     return result
+# _____________________________________________
+# def insert(table,data):
+#     query = "INSERT INTO " +table+ " VALUES " +data
+#     db_connection()
+#     db_cursor()
+#     result = my_cursor.execute(query)
+#     my_db.commit()
+#     return result
+
+# insert('users(name)','sita')
+# ____________________________________________
